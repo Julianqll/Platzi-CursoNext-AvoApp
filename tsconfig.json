@@ -17,9 +17,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    // añadiendo path aliases
     "baseUrl": ".",
     "paths": {
-      "@database": ["database/db.ts"]
+      "@database": ["database/db.ts"],
+      "@components/*": ["components/*"],
     },
   },
   "include": [
